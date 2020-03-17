@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/lyk/Documents/GitHub/Java practice/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1168481830.index
+4064957414.index
+2494434522.index
+1988023169.index
+1542132753.index
+3792770008.index
