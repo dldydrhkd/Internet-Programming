@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<server port="8080">
-  <module context="lyk01" name="lyk01" path="/Users/lyk/Documents/GitHub/Java practice/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/lyk01" type="static"/>
-</server>
+<server port="8080"/>
