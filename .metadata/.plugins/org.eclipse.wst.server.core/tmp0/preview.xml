@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<server port="8080"/>
+<server port="8080">
+  <module context="Blog" name="Blog" path="/Users/lyk/Documents/GitHub/Internet Programming/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/Blog" type="static"/>
+</server>

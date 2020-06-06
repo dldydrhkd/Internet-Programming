@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>스타일 변경 예제</title>
+<script>
+window.onload = function() { 
+ 
+document.getElementById("changeBGColor").onclick= function() {   /* id가 changeBGColor인 버튼을 클릭할 경우의 DOM 이벤트 핸들링 */
+ document.getElementById("body").style.backgroundColor= document.getElementById("userColor").value;    /* body 요소의 배경색 스타일을 사용자가 선택한 색깔로 지정 */
+ }
+}
+<!-- sdf
+-->
+</script>
+</head>
+<body id="body">
+배경색 선택: <input type="color" id="userColor">
+<input type="button" id="changeBGColor" value="배경색 변경">
+</body>
+</html>
