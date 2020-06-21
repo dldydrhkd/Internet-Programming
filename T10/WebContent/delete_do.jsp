@@ -4,6 +4,7 @@
 request.setCharacterEncoding("utf-8");		//URL 인코딩 : UTF-8. MariaDB 인코딩 : utf8
 
 String idx = request.getParameter("idx");  //1. 사용자가 입력한 idx 정보 가져오기
+Cookie[] cookies=request.getCookies();
 
 try {
 
@@ -45,4 +46,8 @@ try {
 
 //9. 리스트출력 페이지로 이동시키기
 response.sendRedirect("list.jsp");
+%>
+
+<%
+
 %>

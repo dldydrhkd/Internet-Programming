@@ -38,11 +38,11 @@ try {
 <td>Name</td>
 <td>password</td>
 <td>비고</td>
-
 </tr>
 <%
     while(rs.next()) {
-%><tr>
+%>
+<tr>
 <td><%=rs.getInt("idx")%> <!-- 6. idx 값을 출력한다.   --></td>
 <td><%=rs.getString(2) %></td>
 <td><%=rs.getString("name")%><!-- 7.name을 출력한다. --></td>

@@ -27,6 +27,5 @@ if(session.getAttribute("id")==null){
 <%
 }
 %>
-
 </body>
 </html>

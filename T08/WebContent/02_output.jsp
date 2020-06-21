@@ -32,24 +32,7 @@ for(int i=0; i<sfoods.length; i++){
 	foodArr[<%=foodIdx%>].checked = true;
 <%
 }		//end-of for
-%> 
-
-<%
-int armyIdx=-1;
-for(int i=0; i<sarmy.length; i++){
-	if(sarmy[i].equals("미필")){
-		armyIdx = 0;
-	}else if(sarmy[i].equals("군필")){
-		armyIdx=1;
-	}else if(sarmy[i].equals("면제")){
-		armyIdx=2;
-	}
 %>
-	armyArr[<%=armyIdx%>].checked=true;
-<%
-}
-%>
-
 
 	document.getElementById("job").selectedIndex = <%=sjob %>;
 } // js end-of onload function
