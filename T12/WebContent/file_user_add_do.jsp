@@ -20,7 +20,7 @@ int maxsize = 1024*1024*5;
 
 try {
 	//3. MultipartRequest 객체 생성. 
-	//   만일, 서버에 동일한 파일이름이 저장되어있다면, 파일이름 뒤에 숫자를 증가시킴
+	//   만일, 서버에 동일한 파일이름이 저장되어있다면, 파일이름 뒤에 숫자를 증가시킴s
 	MultipartRequest multi = new MultipartRequest(request, realFolder, maxsize, "utf-8", 
 									new DefaultFileRenamePolicy());
 

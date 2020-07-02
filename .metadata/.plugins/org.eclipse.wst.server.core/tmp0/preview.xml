@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <server port="8080">
   <module context="Blog" name="Blog" path="/Users/lyk/Documents/GitHub/Internet Programming/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/Blog" type="static"/>
+  <module context="T06A" name="T06A" path="/Users/lyk/Documents/GitHub/Internet Programming/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/T06A" type="static"/>
+  <module context="T04" name="T04" path="/Users/lyk/Documents/GitHub/Internet Programming/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/T04" type="static"/>
 </server>
