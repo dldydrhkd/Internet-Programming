@@ -1,23 +1,23 @@
 # SNS-Blog-internet-programming
 internet programming practice with java,html,jsp,css
 
-##구현 환경
+## 구현 환경
 MariaDB 10.4.13 version
 Java Eclipse 4.14.0 version
 Tomcat 9.0 for server
 
 
-##라이브러리 사용
+## 라이브러리 사용
 mariadb-java-client-2.5.4.jar
   -for sql
 cos.jar
   -for file upload(com.oreilly.servlet에서 다운)
   
 
-##사용법
+## 사용법
 login_ok.jsp 부터 실행하면 됩니다.
 
-##구현
+## 구현
   1)게시글 출력
 	  -작성자, 글제목, 그림, 글내용, 작성시간이 출력됩니다.
 		-글 내용이 100자 이상일 시 <더보기>가 나타나고 감출 수도 있습니다.
