@@ -1,9 +1,0 @@
-@CHARSET "UTF-8";
-.myFont{
-	font-family:"Malgun Gothic", cursive;
-}
-
-#myID{
-	font:bold 50px "궁서체", san-serif;
-	color:red;
-}
