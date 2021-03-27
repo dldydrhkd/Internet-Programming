@@ -15,11 +15,11 @@ Tomcat 9.0 for server
 
 mariadb-java-client-2.5.4.jar
 
-  -for sql
+  - for sql
   
 cos.jar
 
-  -for file upload(com.oreilly.servlet에서 다운)
+  - for file upload(com.oreilly.servlet에서 다운)
   
 
 ## 사용법
@@ -28,16 +28,16 @@ login_ok.jsp 부터 실행하면 됩니다.
 
 ## 구현
 
--게시글 출력
+- 게시글 출력
 
--회원가입
+- 회원가입
 
--로그인
+- 로그인
 
--로그아웃
+- 로그아웃
 
--게시글 조회
+- 게시글 조회
 
--추천
+- 추천
 
--검색 기능
+- 검색 기능
